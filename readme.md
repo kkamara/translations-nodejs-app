@@ -2,6 +2,8 @@
 
 A NodeJS translations app with static pages. Using the i18next package.
 
+This app follows the course at https://lokalise.com/blog/node-js-i18n-express-js-localization .
+
 * [Installation](#installation)
 
 * [Usage](#usage)
