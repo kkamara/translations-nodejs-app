@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A NodeJS translations app with static pages. Using the i18next package.",
   "main": "src/app.js",
+  "type": "module",
   "scripts": {
     "test": "mocha tests/",
     "start": "cross-env DEBUG=express:* yarn node src/app.js",
