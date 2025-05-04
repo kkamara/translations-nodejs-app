@@ -1,6 +1,6 @@
 # translations-nodejs-app
 
-(2021) A NodeJS boilerplate with ReactJS 16 Redux SPA.
+A NodeJS translations app with static pages. Using the i18next package.
 
 * [Important Note](#important-note)
 
