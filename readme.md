@@ -10,8 +10,6 @@
 
 (2021) A NodeJS boilerplate with ReactJS 16 Redux SPA.
 
-* [Using Postman?](#postman)
-
 * [Important Note](#important-note)
 
 * [Installation](#installation)
@@ -25,15 +23,6 @@
 * [Contributing](#contributing)
 
 * [License](#license)
-
-<a name="postman"></a>
-## Using Postman?
-
-[Get Postman HTTP client](https://www.postman.com).
-
-[Postman API Collection for NodeJS ReactJS Boilerplate](https://github.com/kkamara/nodejs-reactjs-boilerplate/blob/main/nodejs-reactjs-boilerplate.postman_collection.json).
-
-[Postman API Environment for NodeJS ReactJS Boilerplate](https://github.com/kkamara/nodejs-reactjs-boilerplate/blob/main/nodejs-reactjs-boilerplate.postman_environment.json).
 
 ## Important Note
 
