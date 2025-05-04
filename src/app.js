@@ -4,6 +4,7 @@ import i18next from 'i18next';
 import Backend from 'i18next-fs-backend';
 import middleware from 'i18next-http-middleware';
 import indexRouter from './routes/index.js';
+import { setLanguage } from './middleware/setLanguageMiddleware.js';
 
 i18next
   .use(Backend)                     // Connects the file system backend
@@ -23,6 +24,7 @@ i18next
 const app = express();
 
 app.use(middleware.handle(i18next));
+app.use(setLanguage);
 
 const PORT = 3000;
 // Set up views and view engine
