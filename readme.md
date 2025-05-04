@@ -1,4 +1,4 @@
-# nodejs-reactjs-boilerplate
+# translations-nodejs-app
 
 (2021) A NodeJS boilerplate with ReactJS 16 Redux SPA.
 

@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-reactjs-boilerplate",
+  "name": "translations-nodejs-app",
   "version": "0.1.0",
   "description": "(2021) A NodeJS boilerplate with ReactJS 16 Redux SPA.",
   "main": "src/app.js",
