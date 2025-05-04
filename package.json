@@ -21,6 +21,9 @@
   "homepage": "https://github.com/kkamara/translations-nodejs-app#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "i18next": "^25.0.2",
+    "i18next-fs-backend": "^2.6.0",
+    "i18next-http-middleware": "^3.7.4",
     "pug": "^3.0.2"
   },
   "devDependencies": {
