@@ -1,6 +1,6 @@
 export const getHomePage = (req, res) => {
   res.render('index', { 
-    title: "Homepage",
-    message: "Welcome to the Book shop!",
+    title: req.t('title'),
+    message: req.t('message'),
   });
 };
