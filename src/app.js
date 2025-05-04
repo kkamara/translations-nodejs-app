@@ -20,6 +20,8 @@ i18next
     preload: ['en', 'ru'],               // Preload these languages at startup
   });
 
+app.use(middleware.handle(i18next));
+
 const app = express();
 const PORT = 3000;
 // Set up views and view engine
