@@ -25,12 +25,14 @@ yarn install
 
 ```bash
 yarn start
+# http://localhost:3000/?name=John&items=5
 ```
 
 #### Reload server on project files change
 
 ```bash
 yarn dev
+# http://localhost:3000/?name=John&items=5
 ```
 
 ## Contributing
