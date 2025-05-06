@@ -10,6 +10,11 @@ i18next
   .use(Backend)                     // Connects the file system backend
   .use(middleware.LanguageDetector) // Enables automatic language detection
   .init({
+    ns: [
+      "translation",
+      path.join("folder", "custom"),
+    ],
+    defaultNs: "translation",
     backend: {
       loadPath: path.join(process.cwd(), 'src/locales', '{{lng}}', '{{ns}}.json'), // Path to translation files
     },
