@@ -12,6 +12,7 @@ i18next
   .init({
     ns: [
       "translation",
+      "business",
     ],
     defaultNs: "translation",
     backend: {

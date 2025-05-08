@@ -6,5 +6,6 @@ export const getHomePage = (req, res) => {
     title: req.t('title'),
     welcomeMessage: req.t('welcome_user', { name: userName }),  // Interpolate user's name
     cartMessage: req.t('cart_items', { count: cartItemCount }),  // Display singular/plural based on count
+    otherMessage: req.t('card.message', { ns: "business" }),
   });
 };
