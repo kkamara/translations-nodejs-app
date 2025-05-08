@@ -12,7 +12,6 @@ i18next
   .init({
     ns: [
       "translation",
-      path.join("folder", "custom"),
     ],
     defaultNs: "translation",
     backend: {
